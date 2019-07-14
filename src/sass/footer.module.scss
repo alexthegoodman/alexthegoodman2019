@@ -1,0 +1,27 @@
+.footer {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .cta {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    .left,
+    .right {
+      width: 50%;
+    }
+    .left {
+      height: 300px;
+      background: black;
+    }
+    .right {
+      height: 350px;
+      background: grey;
+    }
+  }
+  .finePrint {
+    padding: 35px 0;
+  }
+}

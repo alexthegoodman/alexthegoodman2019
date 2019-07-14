@@ -1,0 +1,91 @@
+@import "vars";
+
+.hero {
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    background: $red;
+    opacity: 0.1;
+    border-radius: 50%;
+    width: 850px;
+    height: 850px;
+    top: -425px;
+    left: -425px;
+    z-index: -1;
+  }
+
+  &:after {
+    content: " ";
+    position: absolute;
+    background: $red;
+    opacity: 0.05;
+    border-radius: 50%;
+    width: 1450px;
+    height: 1450px;
+    top: -725px;
+    left: -725px;
+    z-index: -1;
+  }
+
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .info {
+    height: 800px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+
+    h1 {
+      font-family: masqualero, serif;
+      font-size: 74px;
+      line-height: 80px;
+      margin: 0 0 25px 0;
+    }
+    p {
+      font-family: freight-sans-pro, sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+      margin: 0 0 15px 0;
+      padding-right: 100px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .visual {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    .outerLayer {
+      clip-path: url(#curve2);
+    }
+    .innerLayer {
+      clip-path: url(#curve1);
+      width: 1000px;
+
+      > div {
+        opacity: 0.5;
+      }
+    }
+    video {
+      position: absolute;
+      top: 55px;
+      width: 300px;
+      right: 18vw;
+      transform: skew(-7deg, 6deg);
+    }
+  }
+}

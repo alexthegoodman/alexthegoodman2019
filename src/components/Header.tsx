@@ -3,16 +3,20 @@ import * as styles from '../sass/header.module.scss';
 
 const Header: React.FC<any> = () => {
   return (
-    <header className="header">
-      <div className="contain">
-        <div className="logo">
-          <img
+    <header className={styles.header}>
+      <div className={styles.contain}>
+        <div className={styles.logo}>
+          {/* <img
             src="/goodmanWordmark.png"
             alt="Alex The Goodman - React Developer"
             title="Alex The Goodman - React Developer"
-          />
+          /> */}
+          <h2>
+            <span>Alex The</span>
+            <span>Goodman</span>
+          </h2>
         </div>
-        <div className="navigation">
+        <div className={styles.navigation}>
           <nav>
             <ul>
               <li>
@@ -21,7 +25,7 @@ const Header: React.FC<any> = () => {
                 </a>
               </li>
               <li>
-                <a className="btn">Start a Project</a>
+                <a className={styles.btn}>Start a Project</a>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,75 @@
+@import "vars";
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+    display: table;
+  }
+
+  .logo {
+    width: max-content;
+    float: left;
+
+    h2 {
+      font-family: masqualero, serif;
+      text-align: center;
+
+      span {
+        &:first-of-type {
+          font-size: 18px;
+          font-family: freight-sans-pro, sans-serif;
+          text-transform: uppercase;
+        }
+        &:last-of-type {
+          font-size: 28px;
+          display: block;
+        }
+      }
+    }
+  }
+  .navigation {
+    width: max-content;
+    float: right;
+
+    nav {
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 0;
+
+        li {
+          a {
+            padding: 15px 25px;
+            display: block;
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  color: white;
+  background: $red;
+  border-radius: 50px;
+  text-align: center;
+  outline: none;
+  border: none;
+  box-shadow: none;
+
+  &:active,
+  &:focus,
+  &:hover {
+  }
+}

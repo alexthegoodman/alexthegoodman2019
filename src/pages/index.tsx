@@ -12,36 +12,45 @@ export const indexPageQuery = graphql`
   query IndexPageQuery {
     site {
       siteMetadata {
-        name
-        tagline
+        portfolioItems {
+          image
+          title
+          description
+          dateComplete
+          badges
+        }
+        qualificationItems {
+          title
+          items {
+            keyword
+            copy
+          }
+        }
       }
     }
   }
 `;
 
 const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
-  const { name, tagline } = data.site.siteMetadata;
+  const { portfolioItems, qualificationItems } = data.site.siteMetadata;
 
   return (
     <>
       <Header />
       <Hero />
-      <Navigator />
-      <section className="portfolio">
-        <div className="contain">
-          <PortfolioItem />
-          <PortfolioItem />
-          <PortfolioItem />
-          <PortfolioItem />
-          <PortfolioItem />
+      {/* <Navigator /> */}
+      <section className={styles.portfolio}>
+        <div className={styles.contain}>
+          {portfolioItems.map((item: any, i: number) => {
+            return <PortfolioItem key={i} item={item} />;
+          })}
         </div>
       </section>
-      <section className="qualifications">
-        <div className="contain">
-          <QualificationItem />
-          <QualificationItem />
-          <QualificationItem />
-          <QualificationItem />
+      <section className={styles.qualifications}>
+        <div className={styles.contain}>
+          {qualificationItems.map((item: any, i: number) => {
+            return <QualificationItem key={i} item={item} />;
+          })}
         </div>
       </section>
       <Footer />

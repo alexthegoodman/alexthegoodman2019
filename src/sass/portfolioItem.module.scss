@@ -1,0 +1,50 @@
+@import "vars";
+
+.portfolioItem {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 15px;
+
+  .itemContain {
+    .visual {
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
+    }
+    .info {
+      padding-top: 25px;
+
+      h3 {
+        font-family: freight-sans-pro, sans-serif;
+        font-size: 36px;
+        line-height: 42px;
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 28px;
+      }
+      em {
+      }
+      .badges {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+
+        span {
+          display: block;
+          width: max-content;
+          border-radius: 5px;
+          padding: 7px 14px;
+          background: rgba($blue, 0.7);
+          margin-right: 7px;
+          // color: white;
+          // text-transform: uppercase;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

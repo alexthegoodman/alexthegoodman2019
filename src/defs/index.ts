@@ -1,10 +1,10 @@
 interface IndexPageProps {
-    data: {
-      site: {
-        siteMetadata: {
-          name: string;
-          tagline: string;
-        },
-      },
+  data: {
+    site: {
+      siteMetadata: {
+        portfolioItems: any;
+        qualificationItems: any;
+      };
     };
-  }
+  };
+}
