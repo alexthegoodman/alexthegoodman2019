@@ -1,3 +1,5 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 import * as styles from '../sass/header.module.scss';
 
@@ -25,7 +27,12 @@ const Header: React.FC<any> = () => {
                 </a>
               </li>
               <li>
-                <a className={styles.btn}>Start a Project</a>
+                <a
+                  className={styles.btn}
+                  href="mailto:alexthegoodman@gmail.com"
+                >
+                  Start a Project
+                </a>
               </li>
             </ul>
           </nav>
