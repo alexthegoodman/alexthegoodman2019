@@ -25,6 +25,14 @@
       }
     }
   }
+
+  @include tabletDown {
+    div.contain {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
 }
 
 .qualifications {

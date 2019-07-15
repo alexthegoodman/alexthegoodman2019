@@ -70,4 +70,22 @@
       width: calc(100% - #{$mobile * 2});
     }
   }
+  @include miniDown {
+    div.contain {
+      .navigation {
+        nav {
+          ul {
+            flex-direction: column;
+            // border-radius: 0;
+
+            li {
+              &:first-of-type {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

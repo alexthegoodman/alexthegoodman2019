@@ -32,6 +32,7 @@
       .badges {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         margin-top: 15px;
 
         span {
@@ -41,9 +42,25 @@
           padding: 7px 14px;
           background: rgba($blue, 0.7);
           margin-right: 7px;
+          margin-bottom: 7px;
           // color: white;
           // text-transform: uppercase;
           font-weight: 600;
+        }
+      }
+    }
+  }
+
+  @include middleDown {
+    div.itemContain {
+      .info {
+        h3 {
+          font-size: 28px;
+          line-height: 34px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 26px;
         }
       }
     }

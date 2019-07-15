@@ -20,6 +20,7 @@
         color: white;
         font-size: 48px;
         margin: 0 0 25px 0;
+        text-align: center;
       }
     }
     .left {
@@ -109,10 +110,57 @@
   }
 
   @include desktopDown {
-    //
-
     div.contain {
       width: calc(100% - #{$mobile * 2});
+    }
+  }
+  @include middleDown {
+    .cta {
+      .left,
+      .right {
+        h5,
+        h6 {
+          font-size: 36px;
+          margin: 0 0 20px 0;
+        }
+        .contactInfo {
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    div.contain {
+    }
+  }
+  @include tabletDown {
+    .cta {
+      flex-direction: column;
+
+      .left,
+      .right {
+        width: 100%;
+        box-shadow: none;
+        height: auto;
+        padding: 70px 0;
+      }
+    }
+  }
+  @include miniDown {
+    .finePrint {
+      div.contain {
+        flex-direction: column;
+
+        .left,
+        .right {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        .left {
+          margin-bottom: 25px;
+        }
+      }
     }
   }
 }
