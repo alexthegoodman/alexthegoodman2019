@@ -2,19 +2,11 @@ module.exports = {
   siteMetadata: {
     portfolioItems: [
       {
-        image: "/img/reeviewr/music.png",
-        image2: "",
-        title: "Reeviewr - Free Music Feedback",
-        description:
-          "Reeviewr is simple. Review a song to post a song. Everybody gets the feedback and attention they deserve, and it's completely free.",
-        dateComplete: "",
-        badges: ["React", "TypeScript", "GraphQL", "Prisma"]
-      },
-      {
         image: "/img/assets/group.png",
         image2: "",
         title: "Assets for iOS, Apple TV, and Web",
-        description: "",
+        description:
+          "iOS, Apple TV, and Web applications for Assets all built with React and React Native. This application was intended for designers and photographers to upload the work and get feedback from clients.",
         dateComplete: "",
         badges: ["React", "React Native", "JavaScript", "Node"]
       },
@@ -22,9 +14,19 @@ module.exports = {
         image: "/img/homscout/iphonePreview.png",
         image2: "",
         title: "HomScout - Mobile Lead Generation",
-        description: "",
+        description:
+          "HomScout was a React Native mobile app designed for canvassers who needed leads on their roofing projects.",
         dateComplete: "",
         badges: ["React Native", "JavaScript", "Node"]
+      },
+      {
+        image: "/img/reeviewr/music.png",
+        image2: "",
+        title: "Reeviewr - Free Music Feedback",
+        description:
+          "Reeviewr is simple. Review a song to post a song. Everybody gets the feedback and attention they deserve, and it's completely free.",
+        dateComplete: "",
+        badges: ["React", "TypeScript", "GraphQL", "Prisma"]
       }
     ],
     qualificationItems: [

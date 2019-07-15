@@ -122,7 +122,9 @@
     }
   }
   @include miniDown {
-    height: 925px;
+    // height: 925px;
+    height: auto;
+    padding-bottom: 70px;
 
     div.contain {
       padding-top: 125px;
@@ -145,14 +147,16 @@
       }
     }
     .visual {
-      .outerLayer {
-        display: none;
-      }
-      video {
-        top: 400px;
-        width: 200px;
-        right: calc(50vw - 100px);
-      }
+      display: none;
+
+      // .outerLayer {
+      //   display: none;
+      // }
+      // video {
+      //   top: 400px;
+      //   width: 200px;
+      //   right: calc(50vw - 100px);
+      // }
     }
   }
 }

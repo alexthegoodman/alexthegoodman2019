@@ -1,5 +1,6 @@
 import { graphql } from 'gatsby';
 import * as React from 'react';
+import AdditionalItem from '../components/AdditionalItem';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
@@ -45,6 +46,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
             {portfolioItems.map((item: any, i: number) => {
               return <PortfolioItem key={i} item={item} />;
             })}
+            <AdditionalItem />
           </div>
         </div>
       </section>

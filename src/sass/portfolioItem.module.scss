@@ -8,9 +8,13 @@
   .itemContain {
     .visual {
       img {
-        width: 100%;
+        // width: 100%;
         max-width: 100%;
         border-radius: 15px;
+        max-height: 400px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
       }
     }
     .info {
