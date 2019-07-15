@@ -1,16 +1,9 @@
 import * as React from 'react';
-import ReactMapGL from 'react-map-gl';
+// import ReactMapGL from 'react-map-gl';
+import { StaticMap } from 'react-map-gl';
 import * as styles from '../sass/hero.module.scss';
 
 const Hero: React.FC<any> = () => {
-  const [viewport, setViewport] = React.useState({
-    width: 1200,
-    height: 800,
-    latitude: 42.956273,
-    longitude: -85.8001727,
-    zoom: 11,
-  });
-
   return (
     <section className={styles.hero}>
       <div className={styles.contain}>
@@ -34,13 +27,16 @@ const Hero: React.FC<any> = () => {
       <div className={styles.visual}>
         <div className={styles.outerLayer}>
           <div className={styles.innerLayer}>
-            <ReactMapGL
+            <StaticMap
               mapboxApiAccessToken={
                 'pk.eyJ1IjoiYWxleHRoZWdvb2RtYW4iLCJhIjoiY2p5MzFpNjVwMHVtbTNtbWJxZGowaGMzaSJ9.yEJBVWS3cRBapCzZS7rI1g'
               }
-              {...viewport}
               mapStyle="mapbox://styles/alexthegoodman/cj5vd7ow71g2e2rs18oiquskx"
-              onViewportChange={(newViewport) => setViewport(newViewport)}
+              width={1200}
+              height={800}
+              latitude={42.956273}
+              longitude={-85.8001727}
+              zoom={11}
             />
           </div>
         </div>

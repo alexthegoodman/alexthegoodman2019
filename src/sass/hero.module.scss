@@ -88,4 +88,11 @@
       transform: skew(-7deg, 6deg);
     }
   }
+
+  @include desktopDown {
+    div.contain {
+      width: 100%;
+      padding: 0 $mobile;
+    }
+  }
 }

@@ -107,4 +107,12 @@
       }
     }
   }
+
+  @include desktopDown {
+    //
+
+    div.contain {
+      width: calc(100% - #{$mobile * 2});
+    }
+  }
 }

@@ -41,16 +41,20 @@ const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
       {/* <Navigator /> */}
       <section className={styles.portfolio}>
         <div className={styles.contain}>
-          {portfolioItems.map((item: any, i: number) => {
-            return <PortfolioItem key={i} item={item} />;
-          })}
+          <div className={styles.grid}>
+            {portfolioItems.map((item: any, i: number) => {
+              return <PortfolioItem key={i} item={item} />;
+            })}
+          </div>
         </div>
       </section>
       <section className={styles.qualifications}>
         <div className={styles.contain}>
-          {qualificationItems.map((item: any, i: number) => {
-            return <QualificationItem key={i} item={item} />;
-          })}
+          <div className={styles.grid}>
+            {qualificationItems.map((item: any, i: number) => {
+              return <QualificationItem key={i} item={item} />;
+            })}
+          </div>
         </div>
       </section>
       <Footer />
