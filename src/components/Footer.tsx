@@ -15,7 +15,7 @@ const Footer: React.FC<any> = () => {
         <div className={styles.left}>
           <div className={styles.resumeInfo}>
             <h5>Looking for a resume?</h5>
-            <a className={styles.btn} href="/resume.pdf" download={true}>
+            <a className={styles.btn} href="/resume2019.pdf" download={true}>
               Download Resume
             </a>
           </div>
