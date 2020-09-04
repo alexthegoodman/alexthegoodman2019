@@ -20,7 +20,7 @@
     "gatsby": "^2.1.20",
     "gatsby-plugin-sass": "^2.0.10",
     "gatsby-plugin-typescript": "^2.0.10",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-map-gl": "^5.0.4",
