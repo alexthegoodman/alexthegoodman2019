@@ -2,6 +2,15 @@ module.exports = {
   siteMetadata: {
     portfolioItems: [
       {
+        image: "/img/climatecheck/climateCheck.png",
+        image2: "",
+        title: "ClimateCheck",
+        description:
+          "ClimateCheck bring the realities of climate change to your doorstep with a proprietary rating️ and report for any US property. The report details areas such as flood risk, fire risk, and storm risk.",
+        dateComplete: "",
+        badges: ["React", "React Native", "JavaScript", "Node"]
+      },
+      {
         image: "/img/assets/group.png",
         image2: "",
         title: "Assets for iOS, Apple TV, and Web",

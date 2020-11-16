@@ -15,7 +15,7 @@ const Footer: React.FC<any> = () => {
         <div className={styles.left}>
           <div className={styles.resumeInfo}>
             <h5>Looking for a resume?</h5>
-            <a className={styles.btn} href="/resume2019.pdf" download={true}>
+            <a className={styles.btn} href="/resume2020a.pdf" download={true}>
               Download Resume
             </a>
           </div>
@@ -35,7 +35,7 @@ const Footer: React.FC<any> = () => {
       <div className={styles.finePrint}>
         <div className={styles.contain}>
           <div className={styles.left}>
-            <span>&copy; 2019 - AlexTheGoodman</span>
+            <span>&copy; 2020 - AlexTheGoodman</span>
           </div>
           <div className={styles.right}>
             <a href="https://www.facebook.com/reactgoodman" target="_blank">

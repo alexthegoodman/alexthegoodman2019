@@ -11,17 +11,12 @@ const Hero: React.FC<any> = () => {
           <h1>
             React is
             <br />
-            an ecosystem
+            my specialty
           </h1>
           <p>
-            The best fit for your project isn't simply someone who stays ahead
-            of the curve, but someone who delivers on tight timelines and tough
-            budgets.
+          <strong>I AM</strong> an everlasting fire, burning furiously for outstanding designs and unforgettable experiences.</p><p><strong>I VALUE</strong> the design community and the open source community in order to breathe life into design.</p><p><strong>I WILL</strong> set realistic expectations, be honest and transparent, and remain professional and hospitable the whole way.
           </p>
-          <p>
-            That's why I work from home. Because I understand the JavaScript
-            world, but I also understand your needs.
-          </p>
+          
         </div>
       </div>
       <div className={styles.visual}>

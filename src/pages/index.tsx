@@ -46,7 +46,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
             {portfolioItems.map((item: any, i: number) => {
               return <PortfolioItem key={i} item={item} />;
             })}
-            <AdditionalItem />
+            {/* <AdditionalItem /> */}
           </div>
         </div>
       </section>

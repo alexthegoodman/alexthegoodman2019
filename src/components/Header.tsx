@@ -22,7 +22,7 @@ const Header: React.FC<any> = () => {
           <nav>
             <ul>
               <li>
-                <a href="https://www.facebook.com/reactgoodman" target="_blank">
+                <a href="https://www.facebook.com/alexthegoodman" target="_blank">
                   React Tips and Links
                 </a>
               </li>
