@@ -36,7 +36,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
   const { portfolioItems, qualificationItems } = data.site.siteMetadata;
 
   return (
-    <>
+    <section className={styles.outerContainer}>
       <Header />
       <Hero />
       {/* <Navigator /> */}
@@ -60,7 +60,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
         </div>
       </section>
       <Footer />
-    </>
+    </section>
   );
 };
 

@@ -1,14 +1,18 @@
 @import "vars";
 
 .portfolioItem {
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+  
+
+  .itemContain {
+    height: auto;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
   padding: 25px;
   border-radius: 15px;
 
-  .itemContain {
     .visual {
       height: 300px;
       overflow: hidden;
+      border-radius: 15px;
 
       img {
         // width: 100%;
@@ -51,8 +55,10 @@
           margin-right: 7px;
           margin-bottom: 7px;
           // color: white;
-          // text-transform: uppercase;
-          font-weight: 600;
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: 14px;
+          letter-spacing: 0.7px;
         }
       }
     }

@@ -4,38 +4,38 @@ module.exports = {
       {
         image: "/img/climatecheck/climateCheck.png",
         image2: "",
-        title: "ClimateCheck",
+        title: "ClimateCheck - Climate Reports",
         description:
-          "ClimateCheck bring the realities of climate change to your doorstep with a proprietary rating️ and report for any US property. The report details areas such as flood risk, fire risk, and storm risk.",
+          "ClimateCheck brings the realities of climate change to your doorstep with a proprietary rating️ and report for any US property. The report details areas such as flood risk, fire risk, and storm risk.",
         dateComplete: "",
-        badges: ["React", "React Native", "JavaScript", "Node"]
+        badges: ["React", "TypeScript"]
       },
       {
-        image: "/img/assets/group.png",
+        image: "/img/reeviewr/beta.jpg",
         image2: "",
-        title: "Assets for iOS, Apple TV, and Web",
+        title: "Reeviewr - Free Music Feedback",
         description:
-          "iOS, Apple TV, and Web applications for Assets all built with React and React Native. This application was intended for designers and photographers to upload the work and get feedback from clients.",
+          "Reeviewr is for anybody, from creatives to students. Review a piece of content to post content. Everybody gets the feedback and attention they deserve, and it's completely free.",
         dateComplete: "",
-        badges: ["React", "React Native", "JavaScript", "Node"]
+        badges: ["React", "TypeScript", "GraphQL", "Prisma"]
       },
       {
         image: "/img/homscout/iphonePreview.png",
         image2: "",
         title: "HomScout - Mobile Lead Generation",
         description:
-          "HomScout was a React Native mobile app designed for canvassers who needed leads on their roofing projects.",
+          "HomScout was a React Native mobile app designed for canvassers to identify, pin, and market to a chosen address when scouting potential homes for roof repairs.",
         dateComplete: "",
         badges: ["React Native", "JavaScript", "Node"]
       },
       {
-        image: "/img/reeviewr/music.png",
+        image: "/img/assets/group.png",
         image2: "",
-        title: "Reeviewr - Free Music Feedback",
+        title: "Assets - Proofing and Collaboration",
         description:
-          "Reeviewr is simple. Review a song to post a song. Everybody gets the feedback and attention they deserve, and it's completely free.",
+          "For iOS, Apple TV, and Web, all apps built with React and React Native. This application was intended for designers and photographers to upload their work and get feedback from clients.",
         dateComplete: "",
-        badges: ["React", "TypeScript", "GraphQL", "Prisma"]
+        badges: ["React", "React Native", "JavaScript", "Node"]
       }
     ],
     qualificationItems: [
@@ -44,19 +44,19 @@ module.exports = {
         items: [
           {
             keyword: "Semantic Markup",
-            copy: "SEO and accessibility oriented HTML"
+            copy: "HTML, JSX, SEO, Accessibility"
           },
           {
-            keyword: "SASS / CSS processors",
-            copy: "Modern styles with helpers, functions, and variables"
+            keyword: "Scalable Styling",
+            copy: "SASS pre-processors, UI kits, helpers, functions, and variables"
           },
           {
-            keyword: "Front-End JavaScript ES7+",
+            keyword: "Client-Side Development",
             copy:
-              "jQuery, React, React Native, Angular, AngularJS, Babel, Webpack, Gulp"
+              "React, React Native, Angular, AngularJS, Babel, Webpack, Gulp"
           },
           {
-            keyword: "Back-End JavaScript",
+            keyword: "Server-Side Development",
             copy: "TypeScript, Node, Express, GraphQL, Prisma, SSR, NPM, Yarn"
           },
           {

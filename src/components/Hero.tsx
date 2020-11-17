@@ -29,9 +29,9 @@ const Hero: React.FC<any> = () => {
               mapStyle="mapbox://styles/alexthegoodman/cj5vd7ow71g2e2rs18oiquskx"
               width={1200}
               height={800}
-              latitude={42.956273}
-              longitude={-85.8001727}
-              zoom={11}
+              latitude={42.856273}
+              longitude={-86.3001727}
+              zoom={8}
             />
           </div>
         </div>

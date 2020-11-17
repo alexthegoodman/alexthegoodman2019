@@ -23,8 +23,8 @@ const Footer: React.FC<any> = () => {
         <div className={styles.right}>
           <div className={styles.contactInfo}>
             <h6>Hoping to get started?</h6>
-            <a href="tel:6163255407">
-              <FontAwesomeIcon icon={faPhone} /> 616-325-5407
+            <a href="tel:6264913348">
+              <FontAwesomeIcon icon={faPhone} /> 626-491-3348
             </a>
             <a href="mailto:alexthegoodman@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} /> alexthegoodman@gmail.com
@@ -38,7 +38,7 @@ const Footer: React.FC<any> = () => {
             <span>&copy; 2020 - AlexTheGoodman</span>
           </div>
           <div className={styles.right}>
-            <a href="https://www.facebook.com/reactgoodman" target="_blank">
+            <a href="https://www.facebook.com/alexthegoodman" target="_blank">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
             <a href="https://twitter.com/alexthegoodman" target="_blank">
