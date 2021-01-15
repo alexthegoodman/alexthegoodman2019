@@ -31,6 +31,10 @@ $radius: 5px;
 $red: #df494a;
 $blue: #5bc1ed;
 
+$gold1: #FAAF3A;
+$gold2: #F7921E;
+$textGrey: #666666;
+
 $headline: masqualero, serif;
 $body: freight-sans-pro, sans-serif;
 
@@ -48,7 +52,7 @@ span {
   width: max-content;
   max-width: 100%;
   color: white;
-  background: $red;
+  background: $gold2;
   border-radius: 50px;
   text-align: center;
   outline: none;

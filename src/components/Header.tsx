@@ -8,15 +8,15 @@ const Header: React.FC<any> = () => {
     <header className={styles.header}>
       <div className={styles.contain}>
         <div className={styles.logo}>
-          {/* <img
-            src="/goodmanWordmark.png"
-            alt="Alex The Goodman - React Developer"
-            title="Alex The Goodman - React Developer"
-          /> */}
-          <h2>
+          <img
+            src="/img/logo.svg"
+            alt="Alex Woodman - Senior Front End Engineer"
+            title="Alex Woodman - Senior Front End Engineer"
+          />
+          {/* <h2>
             <span>Alex The</span>
             <span>Goodman</span>
-          </h2>
+          </h2> */}
         </div>
         <div className={styles.navigation}>
           <nav>

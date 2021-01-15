@@ -16,6 +16,12 @@
     width: max-content;
     float: left;
 
+    img {
+      display: block;
+      width: 175px;
+      margin-top: 25px;
+    }
+
     h2 {
       font-family: masqualero, serif;
       text-align: center;
@@ -51,7 +57,7 @@
           a {
             padding: 10px 25px;
             display: block;
-            color: $red;
+            color: $gold2;
             text-decoration: none;
             font-weight: 600;
             text-decoration: underline;

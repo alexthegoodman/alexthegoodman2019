@@ -5856,6 +5856,11 @@ git-up@^4.0.2:
     is-ssh "^1.3.0"
     parse-url "^5.0.0"
 
+github-buttons@^2.8.0:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.14.1.tgz#56177245e328892949dd59af58c6a7b6c530ad14"
+  integrity sha512-ODvmvylJZPn2Rg/OYRwQcGhIi1gWJ3ZpfkaFUMiBYAZtQQUNTPM7ka5iP+mn5J+DBicvgR24M2GV6QqB0M4zPQ==
+
 gl-matrix@^3.0.0, gl-matrix@^3.2.0, gl-matrix@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/gl-matrix/-/gl-matrix-3.3.0.tgz#232eef60b1c8b30a28cbbe75b2caf6c48fd6358b"
@@ -9847,6 +9852,13 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
   integrity sha512-XzgvowFrwDo6TWcpJ/WTiarb9UI6lhA4PMzS7n1joK3sHfBBBOQHUc0U4u57D6DWO9vHv6lVSWx2Q/Ymfyv4hw==
+
+react-github-btn@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-github-btn/-/react-github-btn-1.2.0.tgz#464066f999a77c0eed27980260601b51cbe15614"
+  integrity sha512-/b2TGTeek5Ky+KtuP5BxOaXgb1FGhbwgZNI6rkwkGk7+xtCtsNMkdchOcCnC3qU1JGTWPKzYZWpPBIouVhXAoQ==
+  dependencies:
+    github-buttons "^2.8.0"
 
 react-hot-loader@^4.12.21:
   version "4.13.0"

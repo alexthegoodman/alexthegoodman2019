@@ -9,6 +9,8 @@ import * as React from 'react';
 import * as styles from '../sass/footer.module.scss';
 
 const Footer: React.FC<any> = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className={styles.footer}>
       <div className={styles.cta}>
@@ -35,7 +37,7 @@ const Footer: React.FC<any> = () => {
       <div className={styles.finePrint}>
         <div className={styles.contain}>
           <div className={styles.left}>
-            <span>&copy; 2020 - AlexTheGoodman</span>
+            <span>&copy; {currentYear} - AlexTheGoodman</span>
           </div>
           <div className={styles.right}>
             <a href="https://www.facebook.com/alexthegoodman" target="_blank">

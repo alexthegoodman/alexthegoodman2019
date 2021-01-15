@@ -3,6 +3,8 @@ import * as React from 'react';
 import { StaticMap } from 'react-map-gl';
 import * as styles from '../sass/hero.module.scss';
 
+import GitHubButton from 'react-github-btn';
+
 const Hero: React.FC<any> = () => {
   return (
     <section className={styles.hero}>
@@ -16,7 +18,15 @@ const Hero: React.FC<any> = () => {
           <p>
           <strong>I AM</strong> an everlasting fire, burning furiously for outstanding designs and unforgettable experiences.</p><p><strong>I VALUE</strong> the design community and the open source community in order to breathe life into design.</p><p><strong>I WILL</strong> set realistic expectations, be honest and transparent, and remain professional and hospitable the whole way.
           </p>
-          
+          <div className={styles.btnContainer}>
+            <GitHubButton 
+              href="https://github.com/alexthegoodman" 
+              data-size="large" 
+              aria-label="Follow @alexthegoodman on GitHub"
+            >
+              Follow @alexthegoodman
+            </GitHubButton>
+          </div>
         </div>
       </div>
       <div className={styles.visual}>
@@ -26,7 +36,7 @@ const Hero: React.FC<any> = () => {
               mapboxApiAccessToken={
                 'pk.eyJ1IjoiYWxleHRoZWdvb2RtYW4iLCJhIjoiY2p5MzFpNjVwMHVtbTNtbWJxZGowaGMzaSJ9.yEJBVWS3cRBapCzZS7rI1g'
               }
-              mapStyle="mapbox://styles/alexthegoodman/cj5vd7ow71g2e2rs18oiquskx"
+              mapStyle="mapbox://styles/alexthegoodman/ckjyb2kai0hgb17nz2qogp2gs"
               width={1200}
               height={800}
               latitude={42.856273}
