@@ -7,7 +7,7 @@ import Hero from '../components/Hero';
 import Navigator from '../components/Navigator';
 import PortfolioItem from '../components/PortfolioItem';
 import QualificationItem from '../components/QualificationItem';
-import * as styles from '../sass/Index.module.scss';
+import * as styles from '../sass/index.module.scss';
 
 export const indexPageQuery = graphql`
   query IndexPageQuery {
